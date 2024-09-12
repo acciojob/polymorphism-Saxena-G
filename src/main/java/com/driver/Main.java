@@ -14,13 +14,13 @@ class Product {
     }
 }
 public class Main {
-   
+
 
     public static void main(String[] args) {
-        Product product = new Product();
-        product.product(5,4);
-        product.product(2,3,4);
-        product.product(3.3,4.5);
-        
+        Product p = new Product();
+        p.product(5,4);
+        p.product(2,3,4);
+        p.product(3.3,4.5);
+
     }
 }
